@@ -42,8 +42,8 @@ Sistema web que combina:
 
 ```
 Python 3.9+
-├── Streamlit          # Interface web
-├── Phi Framework      # Orquestração de agentes
+├── Streamlit         # Interface web
+├── Phi Framework     # Orquestração de agentes
 ├── Groq              # LLM inference (OpenAI GPT)
 ├── YFinance          # Dados financeiros
 ├── Plotly            # Visualizações interativas
