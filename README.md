@@ -20,9 +20,11 @@ Sistema web que combina:
 
 **Resultado:** De 15 minutos de análise manual para insights instantâneos.
 
-## 🎬 Demonstração
+## 🎬 Demonstração APP Local
 
 ![Sistema local em Ação](images/demolocal.gif)
+
+## 🎬 Demonstração APP AWS
 
 ![Sistema aws em Ação](images/demoaws.gif)
 
