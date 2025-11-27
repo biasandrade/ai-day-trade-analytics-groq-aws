@@ -22,9 +22,9 @@ Sistema web que combina:
 
 ## 🎬 Demonstração
 
-![Sistema local em Ação](demolocal.gif)
+![Sistema local em Ação](images/demolocal.gif)
 
-![Sistema aws em Ação](demoaws.gif)
+![Sistema aws em Ação](images/demoaws.gif)
 
 ## 🚀 Features
 
