@@ -22,31 +22,21 @@ Sistema web que combina:
 
 ## 🎯 Outras Aplicações
 
-A arquitetura de **Multi-Agent AI** deste projeto pode ser adaptada para diversos cenários onde é necessário **consolidar múltiplas fontes de dados em tempo real**:
+A arquitetura de **Multi-Agent AI** pode ser adaptada para diversos cenários onde é necessário **consolidar múltiplas fontes em tempo real**:
 
 ### 💼 Finanças & Investimentos
-- 📊 **Análise de Múltiplos Ativos:** Comparar simultaneamente MSFT, AAPL, GOOGL com dashboard lado a lado
-- 🏦 **Análise de Portfólio:** Avaliar risco e diversificação de carteira (ex: 50% AAPL, 30% MSFT, 20% TSLA)
-- 💹 **Fundos Imobiliários:** Análise de FIIs com dados de rentabilidade + notícias do setor
-- 🌎 **Mercados Internacionais:** Análise cross-market (comparar ações NYSE vs B3)
+- 📊 **Análise de Múltiplos Ativos:** Comparar MSFT, AAPL, GOOGL com dashboard lado a lado
+- 🏦 **Análise de Portfólio:** Avaliar risco de carteira diversificada
 
 ### 📈 Business Intelligence
-- 🛒 **Monitoramento de Concorrentes:** Agentes buscam preços, promoções e reviews de competidores
-- 📰 **Análise de Sentimento de Marca:** Consolidar menções em news, redes sociais e reviews
-- 🎯 **Pesquisa de Mercado:** Agentes coletam tendências, preferências e pain points de clientes
-- 📊 **Dashboard Executivo:** Consolidar KPIs de vendas + dados externos (economia, setor)
+- 🛒 **Monitoramento de Concorrentes:** Consolidar preços, promoções e reviews
+- 📰 **Sentimento de Marca:** Agregar menções em news e redes sociais
 
 ### 🚨 Alertas & Automação
-- 📲 **Alertas via Telegram/WhatsApp:** "Me avise se TSLA subir 5%" ou "Notifique se aparecer notícia negativa"
-- ⏰ **Relatórios Automatizados:** Enviar análise diária dos principais ativos por email
-- 🔔 **Monitoramento de Indicadores:** Alertar quando RSI < 30 ou volume > média
+- 📲 **Notificações Inteligentes:** "Avise se TSLA subir 5%"
+- 📉 **Backtest de Estratégias:** Simular regras nos últimos 6 meses
 
-### 🧪 Análise Avançada
-- 📉 **Backtest de Estratégias:** Simular "comprar quando RSI < 30" nos últimos 6 meses
-- 🔮 **Previsão de Preços:** Adicionar modelo LSTM para estimar preço futuro
-- 🎲 **Análise de Correlação:** Identificar ativos que se movem juntos (hedging)
-
-**Conceito-chave:** Qualquer problema que exija **coordenação de múltiplas fontes de dados + análise inteligente + decisão rápida** pode usar essa arquitetura multi-agente.
+**Conceito-chave:** Qualquer problema que exija **coordenação de múltiplas fontes + análise inteligente + decisão rápida**.
 
 ---
 
