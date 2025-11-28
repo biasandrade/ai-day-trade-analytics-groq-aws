@@ -20,6 +20,36 @@ Sistema web que combina:
 
 **Resultado:** De 15 minutos de análise manual para insights instantâneos.
 
+## 🎯 Outras Aplicações
+
+A arquitetura de **Multi-Agent AI** deste projeto pode ser adaptada para diversos cenários onde é necessário **consolidar múltiplas fontes de dados em tempo real**:
+
+### 💼 Finanças & Investimentos
+- 📊 **Análise de Múltiplos Ativos:** Comparar simultaneamente MSFT, AAPL, GOOGL com dashboard lado a lado
+- 🏦 **Análise de Portfólio:** Avaliar risco e diversificação de carteira (ex: 50% AAPL, 30% MSFT, 20% TSLA)
+- 💹 **Fundos Imobiliários:** Análise de FIIs com dados de rentabilidade + notícias do setor
+- 🌎 **Mercados Internacionais:** Análise cross-market (comparar ações NYSE vs B3)
+
+### 📈 Business Intelligence
+- 🛒 **Monitoramento de Concorrentes:** Agentes buscam preços, promoções e reviews de competidores
+- 📰 **Análise de Sentimento de Marca:** Consolidar menções em news, redes sociais e reviews
+- 🎯 **Pesquisa de Mercado:** Agentes coletam tendências, preferências e pain points de clientes
+- 📊 **Dashboard Executivo:** Consolidar KPIs de vendas + dados externos (economia, setor)
+
+### 🚨 Alertas & Automação
+- 📲 **Alertas via Telegram/WhatsApp:** "Me avise se TSLA subir 5%" ou "Notifique se aparecer notícia negativa"
+- ⏰ **Relatórios Automatizados:** Enviar análise diária dos principais ativos por email
+- 🔔 **Monitoramento de Indicadores:** Alertar quando RSI < 30 ou volume > média
+
+### 🧪 Análise Avançada
+- 📉 **Backtest de Estratégias:** Simular "comprar quando RSI < 30" nos últimos 6 meses
+- 🔮 **Previsão de Preços:** Adicionar modelo LSTM para estimar preço futuro
+- 🎲 **Análise de Correlação:** Identificar ativos que se movem juntos (hedging)
+
+**Conceito-chave:** Qualquer problema que exija **coordenação de múltiplas fontes de dados + análise inteligente + decisão rápida** pode usar essa arquitetura multi-agente.
+
+---
+
 ## 🎬 Demonstração APP Local
 
 ![Sistema local em Ação](images/demolocal.gif)
@@ -46,6 +76,8 @@ Sistema web que combina:
   - Configuração para execução em segundo plano
   - Escalável para múltiplos usuários
 
+---
+
 ## 🛠️ Stack Técnica
 
 ```
@@ -69,8 +101,8 @@ Python 3.9+
 
 ```bash
 # Clone o repositório
-git clone https://github.com/biasandrade/day-trade-analytics-ia.git
-cd day-trade-analytics-ia
+git clone https://github.com/biasandrade/ai-day-trade-analytics-groq-aws.git
+cd ai-day-trade-analytics-groq-aws
 
 # Crie um ambiente virtual
 python -m venv venv
@@ -112,8 +144,9 @@ Acesse: `http://localhost:8501`
 ssh -i sua-chave.pem ec2-user@seu-ip
 
 # Clone e configure o projeto
-git clone https://github.com/biasandrade/day-trade-analytics-ia.git
-cd day-trade-analytics-ia
+git clone https://github.com/biasandrade/ai-day-trade-analytics-groq-aws.git
+cd ai-day-trade-analytics-groq-aws
+
 pip install -r requirements.txt
 
 # Execute em segundo plano
@@ -150,6 +183,7 @@ Este projeto me permitiu integrar minhas duas áreas:
 ## 🔮 Próximos Passos
 
 - [ ] Modelo preditivo de preços (LSTM/Transformer)
+- [ ] Alertas de trading (mensagens)
 
 ## 📫 Contato
 
